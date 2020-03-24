@@ -1,0 +1,8 @@
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\bin\Release\netstandard2.0\EPT.DapperExtensions.deps.json
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\bin\Release\netstandard2.0\EPT.DapperExtensions.dll
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\bin\Release\netstandard2.0\EPT.DapperExtensions.pdb
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Release\netstandard2.0\EPT.DapperExtensions.csprojAssemblyReference.cache
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Release\netstandard2.0\EPT.DapperExtensions.AssemblyInfoInputs.cache
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Release\netstandard2.0\EPT.DapperExtensions.AssemblyInfo.cs
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Release\netstandard2.0\EPT.DapperExtensions.dll
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Release\netstandard2.0\EPT.DapperExtensions.pdb

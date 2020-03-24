@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BlockSms.Core</id>
+    <version>1.1.5</version>
+    <authors>任琪</authors>
+    <owners>任琪</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://192.168.100.249:8080/summary/Ticket/WebApi.git</projectUrl>
+    <iconUrl>http://www.slzhly.com/favicon.ico</iconUrl>
+    <description>BlockSms.Core 核心类库</description>
+    <copyright>西安丝路智慧旅游科技有限公司</copyright>
+    <tags>ept</tags>
+    <repository type="git" url="http://192.168.100.249:8080/summary/Ticket/WebApi.git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Consul" version="0.7.2.6" exclude="Build,Analyzers" />
+        <dependency id="DotNetCore.NPOI" version="1.2.1" exclude="Build,Analyzers" />
+        <dependency id="JetBrains.Annotations" version="2018.3.0" exclude="Build,Analyzers" />
+        <dependency id="MediatR" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Hosting.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="2.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="2.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="2.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.PlatformAbstractions" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Nito.AsyncEx.Context" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Net.NameResolution" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="log4net" version="2.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\BlockSms\BlockSms.Core\bin\Debug\netstandard2.0\BlockSms.Core.dll" target="lib\netstandard2.0\BlockSms.Core.dll" />
+  </files>
+</package>

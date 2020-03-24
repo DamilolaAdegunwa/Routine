@@ -1,0 +1,16 @@
+E:\BlockSmsApi\WebApi\BlockSms.Core\bin\Debug\netstandard2.0\BlockSms.Core.deps.json
+E:\BlockSmsApi\WebApi\BlockSms.Core\bin\Debug\netstandard2.0\BlockSms.Core.dll
+E:\BlockSmsApi\WebApi\BlockSms.Core\bin\Debug\netstandard2.0\BlockSms.Core.pdb
+E:\BlockSmsApi\WebApi\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.csprojAssemblyReference.cache
+E:\BlockSmsApi\WebApi\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.AssemblyInfoInputs.cache
+E:\BlockSmsApi\WebApi\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.AssemblyInfo.cs
+E:\BlockSmsApi\WebApi\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.dll
+E:\BlockSmsApi\WebApi\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.pdb
+E:\BlockSms\BlockSms.Core\bin\Debug\netstandard2.0\BlockSms.Core.deps.json
+E:\BlockSms\BlockSms.Core\bin\Debug\netstandard2.0\BlockSms.Core.dll
+E:\BlockSms\BlockSms.Core\bin\Debug\netstandard2.0\BlockSms.Core.pdb
+E:\BlockSms\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.csprojAssemblyReference.cache
+E:\BlockSms\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.AssemblyInfoInputs.cache
+E:\BlockSms\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.AssemblyInfo.cs
+E:\BlockSms\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.dll
+E:\BlockSms\BlockSms.Core\obj\Debug\netstandard2.0\BlockSms.Core.pdb

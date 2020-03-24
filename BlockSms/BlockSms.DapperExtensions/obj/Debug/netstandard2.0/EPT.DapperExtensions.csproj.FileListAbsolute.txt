@@ -1,0 +1,16 @@
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\bin\Debug\netstandard2.0\EPT.DapperExtensions.deps.json
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\bin\Debug\netstandard2.0\EPT.DapperExtensions.dll
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\bin\Debug\netstandard2.0\EPT.DapperExtensions.pdb
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.AssemblyInfoInputs.cache
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.AssemblyInfo.cs
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.dll
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.pdb
+E:\WorkSpace\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.csprojAssemblyReference.cache
+E:\BlockSmsApi\WebApi\src\libs\EPT.DapperExtensions\bin\Debug\netstandard2.0\EPT.DapperExtensions.deps.json
+E:\BlockSmsApi\WebApi\src\libs\EPT.DapperExtensions\bin\Debug\netstandard2.0\EPT.DapperExtensions.dll
+E:\BlockSmsApi\WebApi\src\libs\EPT.DapperExtensions\bin\Debug\netstandard2.0\EPT.DapperExtensions.pdb
+E:\BlockSmsApi\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.csprojAssemblyReference.cache
+E:\BlockSmsApi\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.AssemblyInfoInputs.cache
+E:\BlockSmsApi\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.AssemblyInfo.cs
+E:\BlockSmsApi\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.dll
+E:\BlockSmsApi\WebApi\src\libs\EPT.DapperExtensions\obj\Debug\netstandard2.0\EPT.DapperExtensions.pdb

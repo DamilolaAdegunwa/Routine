@@ -1,0 +1,16 @@
+E:\WorkSpace\WebApi\src\libs\EPT.Core\bin\Debug\netstandard2.0\EPT.Core.deps.json
+E:\WorkSpace\WebApi\src\libs\EPT.Core\bin\Debug\netstandard2.0\EPT.Core.dll
+E:\WorkSpace\WebApi\src\libs\EPT.Core\bin\Debug\netstandard2.0\EPT.Core.pdb
+E:\WorkSpace\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.AssemblyInfoInputs.cache
+E:\WorkSpace\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.AssemblyInfo.cs
+E:\WorkSpace\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.dll
+E:\WorkSpace\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.pdb
+E:\WorkSpace\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.csprojAssemblyReference.cache
+E:\BlockSmsApi\WebApi\src\libs\EPT.Core\bin\Debug\netstandard2.0\EPT.Core.deps.json
+E:\BlockSmsApi\WebApi\src\libs\EPT.Core\bin\Debug\netstandard2.0\EPT.Core.dll
+E:\BlockSmsApi\WebApi\src\libs\EPT.Core\bin\Debug\netstandard2.0\EPT.Core.pdb
+E:\BlockSmsApi\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.csprojAssemblyReference.cache
+E:\BlockSmsApi\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.AssemblyInfoInputs.cache
+E:\BlockSmsApi\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.AssemblyInfo.cs
+E:\BlockSmsApi\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.dll
+E:\BlockSmsApi\WebApi\src\libs\EPT.Core\obj\Debug\netstandard2.0\EPT.Core.pdb

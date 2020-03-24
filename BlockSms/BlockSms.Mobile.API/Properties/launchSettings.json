@@ -1,0 +1,22 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:20171",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "EPT.SelfAPI": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "api/values",
+      "applicationUrl": "http://localhost:8850",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

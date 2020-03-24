@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\BlockSmsApi\\WebApi\\src\\core\\EPT.Tickets.Self\\EPT.Tickets.Self.csproj": {}
+  },
+  "projects": {
+    "E:\\BlockSmsApi\\WebApi\\src\\core\\EPT.Tickets.Self\\EPT.Tickets.Self.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BlockSmsApi\\WebApi\\src\\core\\EPT.Tickets.Self\\EPT.Tickets.Self.csproj",
+        "projectName": "EPT.Tickets.Self",
+        "projectPath": "E:\\BlockSmsApi\\WebApi\\src\\core\\EPT.Tickets.Self\\EPT.Tickets.Self.csproj",
+        "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
+        "outputPath": "E:\\BlockSmsApi\\WebApi\\src\\core\\EPT.Tickets.Self\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kxzy1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.Core\\BlockSms.Core.csproj": {
+                "projectPath": "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.Core\\BlockSms.Core.csproj"
+              },
+              "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.DapperExtensions\\BlockSms.DapperExtensions.csproj": {
+                "projectPath": "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.DapperExtensions\\BlockSms.DapperExtensions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.1, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.Core\\BlockSms.Core.csproj": {
+      "version": "1.1.5",
+      "restore": {
+        "projectUniqueName": "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.Core\\BlockSms.Core.csproj",
+        "projectName": "BlockSms.Core",
+        "projectPath": "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.Core\\BlockSms.Core.csproj",
+        "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
+        "outputPath": "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kxzy1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[0.7.2.6, )"
+            },
+            "DotNetCore.NPOI": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2018.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Nito.AsyncEx.Context": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.Loader": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.DapperExtensions\\BlockSms.DapperExtensions.csproj": {
+      "version": "1.0.2",
+      "restore": {
+        "projectUniqueName": "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.DapperExtensions\\BlockSms.DapperExtensions.csproj",
+        "projectName": "BlockSms.DapperExtensions",
+        "projectPath": "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.DapperExtensions\\BlockSms.DapperExtensions.csproj",
+        "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
+        "outputPath": "E:\\BlockSmsApi\\WebApi\\src\\libs\\EPT.DapperExtensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kxzy1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.5, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

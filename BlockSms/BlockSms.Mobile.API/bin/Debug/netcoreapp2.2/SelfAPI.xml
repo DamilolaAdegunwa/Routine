@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlockSms.Mobile.API</name>
+    </assembly>
+    <members>
+        <member name="T:BlockSms.Mobile.Api.HealthController">
+            <summary>
+            服务状态监测
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.HealthController.Get">
+            <summary>
+            检查服务状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.MessageController">
+            <summary>
+            短信管理
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.MessageController.#ctor(MediatR.IMediator,AutoMapper.IMapper,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions{BlockSms.Mobile.Api.ApiOptions},Microsoft.Extensions.Logging.ILogger{BlockSms.Mobile.Api.MessageController})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.MessageController.SendMessageAsync(BlockSms.Mobile.Api.MessageInputDto)">
+            <summary>
+            发送短信验证码
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.MessageController.SendConsumeMessageAsync(BlockSms.Mobile.Api.MessageInputDto)">
+            <summary>
+            发送短信消费码
+            </summary>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.ApiOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.Version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.ConnectionString">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.Port">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.PayUserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.PayUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.RecUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.OrderQueryUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.MessageApiURL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.MessageUserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.MessageApiKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.Template1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.ApiOptions.Template2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.MessageInputDto">
+            <summary>
+            短信实体(Input)
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.MessageInputDto.molile">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.MessageInputDto.code">
+            <summary>
+            短信验证码
+            </summary>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.MessageOuputDto">
+            <summary>
+            短信实体(Ouput)
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.MessageOuputDto.code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.MessageOuputDto.msg">
+            <summary>
+            消息内容
+            </summary>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.MessageOutCode">
+            <summary>
+            短信实体(Ouput)CODE
+            </summary>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BlockSms.Mobile.Api.Program.IP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BlockSms.Mobile.Api.Program.Port">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.Program.CreateWebHostBuilder(System.String,System.String[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Hosting.IApplicationLifetime)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.WebApis.IMessageApi">
+            <summary>
+            短信接口
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.WebApis.IMessageApi.SendAsync(System.String)">
+            <summary>
+            短信发送接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.LogFilter">
+            <summary>
+            记录日志的过滤器
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.LogFilter.Logger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.LogFilter.OnBeginRequestAsync(WebApiClient.Contexts.ApiActionContext)">
+            <summary>
+            请求前
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlockSms.Mobile.Api.LogFilter.OnEndRequestAsync(WebApiClient.Contexts.ApiActionContext)">
+            <summary>
+            请求后
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

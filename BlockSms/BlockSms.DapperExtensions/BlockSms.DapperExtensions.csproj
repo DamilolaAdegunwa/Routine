@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.2</Version>
+    <Authors>任琪</Authors>
+    <Company>丝路智旅</Company>
+    <Description>BlockSms.DapperExtension  Dapper 扩展</Description>
+    <Copyright>西安丝路智慧旅游科技有限公司</Copyright>
+    <PackageProjectUrl>http://192.168.100.249:8080/summary/Ticket/WebApi.git</PackageProjectUrl>
+    <PackageIconUrl>http://www.slzhly.com/favicon.ico</PackageIconUrl>
+    <RepositoryUrl>http://192.168.100.249:8080/summary/Ticket/WebApi.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ept</PackageTags>
+    <NeutralLanguage>zh-Hans</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

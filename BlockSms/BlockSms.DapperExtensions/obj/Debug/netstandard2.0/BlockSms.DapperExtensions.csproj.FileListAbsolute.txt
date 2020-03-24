@@ -1,0 +1,16 @@
+E:\BlockSmsApi\WebApi\BlockSms.DapperExtensions\bin\Debug\netstandard2.0\BlockSms.DapperExtensions.deps.json
+E:\BlockSmsApi\WebApi\BlockSms.DapperExtensions\bin\Debug\netstandard2.0\BlockSms.DapperExtensions.dll
+E:\BlockSmsApi\WebApi\BlockSms.DapperExtensions\bin\Debug\netstandard2.0\BlockSms.DapperExtensions.pdb
+E:\BlockSmsApi\WebApi\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.AssemblyInfoInputs.cache
+E:\BlockSmsApi\WebApi\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.AssemblyInfo.cs
+E:\BlockSmsApi\WebApi\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.dll
+E:\BlockSmsApi\WebApi\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.pdb
+E:\BlockSmsApi\WebApi\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.csprojAssemblyReference.cache
+E:\BlockSms\BlockSms.DapperExtensions\bin\Debug\netstandard2.0\BlockSms.DapperExtensions.deps.json
+E:\BlockSms\BlockSms.DapperExtensions\bin\Debug\netstandard2.0\BlockSms.DapperExtensions.dll
+E:\BlockSms\BlockSms.DapperExtensions\bin\Debug\netstandard2.0\BlockSms.DapperExtensions.pdb
+E:\BlockSms\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.csprojAssemblyReference.cache
+E:\BlockSms\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.AssemblyInfoInputs.cache
+E:\BlockSms\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.AssemblyInfo.cs
+E:\BlockSms\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.dll
+E:\BlockSms\BlockSms.DapperExtensions\obj\Debug\netstandard2.0\BlockSms.DapperExtensions.pdb

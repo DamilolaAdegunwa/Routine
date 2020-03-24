@@ -1,0 +1,1031 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EPT.SelfAPI</name>
+    </assembly>
+    <members>
+        <member name="T:EPT.SelfAPI.SelfProfie">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.SelfProfie.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Controllers.EquipmentController">
+            <summary>
+            自助设备管理
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.EquipmentController.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache,MediatR.IMediator,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{EPT.SelfAPI.Controllers.EquipmentController},Microsoft.AspNetCore.Http.IHttpContextAccessor,EPT.Tickets.Self.Queries.ISelfQRCodeQueries,EPT.Tickets.Self.Queries.IScenicAreaQueries,EPT.Tickets.Self.Queries.ISelfEquipmentQueries)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.EquipmentController.TokenAsync(System.String)">
+            <summary>
+            获取Token
+            </summary>
+            <param name="machineCode">机器码</param>
+            <returns>Token</returns>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.EquipmentController.GetQRCodeAsync">
+            <summary>
+            获取二维码地址
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.EquipmentController.GetListAsync">
+            <summary>
+            获取设备列表
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.EquipmentController.GetEquipmentAsync(System.String)">
+            <summary>
+            获取设备信息
+            </summary>
+            <param name="machineCode">机器码</param>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.EquipmentController.AddAsync(EPT.SelfAPI.Dto.SelfEquipmentDto)">
+            <summary>
+            新增设备
+            </summary>
+            <param name="input">设备信息</param>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.EquipmentController.GetAdvListAsync(System.String,System.String,System.String)">
+            <summary>
+            获取广告投放列表
+            </summary>
+            <param name="deviceType">设备类型：竖屏广告机/双屏广告机 </param>
+            <param name="materialType">素材类型：系统广告/锁屏广告</param>
+            <param name="machineCode">机器码</param>
+            <returns>广告地址列表</returns>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.EquipmentController.GetDeptIdAsync(System.String)">
+            <summary>
+            根据公钥获取机构ID
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Controllers.HealthController">
+            <summary>
+            服务状态监测
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.HealthController.Get">
+            <summary>
+            检查服务状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:EPT.SelfAPI.Controllers.MessageController">
+            <summary>
+            短信管理
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.MessageController.#ctor(MediatR.IMediator,AutoMapper.IMapper,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions{EPT.SelfAPI.Dto.ApiOptions},Microsoft.Extensions.Logging.ILogger{EPT.SelfAPI.Controllers.OrderController},EPT.Tickets.Self.Queries.ISelfOrderBillQueries,EPT.Tickets.Self.Queries.ISelfTickettypeQueries)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.MessageController.SendMessageAsync(EPT.SelfAPI.Dto.MessageInputDto)">
+            <summary>
+            发送短信验证码
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.MessageController.SendConsumeMessageAsync(EPT.SelfAPI.Dto.MessageInputDto)">
+            <summary>
+            发送短信消费码
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.MessageController.GetTicketInfoAsync(System.String)">
+            <summary>
+            获取票据信息
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Controllers.OrderController">
+            <summary>
+            订单管理
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.#ctor(MediatR.IMediator,AutoMapper.IMapper,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions{EPT.SelfAPI.Dto.ApiOptions},Microsoft.Extensions.Logging.ILogger{EPT.SelfAPI.Controllers.OrderController},EPT.Tickets.Self.Queries.IScenicAreaQueries,EPT.Tickets.Self.Queries.IInterfaceMaintainQueries,EPT.Tickets.Self.Queries.ISelfEquipmentQueries,EPT.Tickets.Self.Queries.ISelfOrderQueries,EPT.Tickets.Self.Queries.ISelfOrderTypeQueries,EPT.Tickets.Self.Queries.ITicketPrintQueries,EPT.Tickets.Self.Queries.ITicketBillQueries,EPT.Tickets.Self.Queries.ITicketTypeQueries,EPT.Tickets.Self.Queries.IPayIncomeQueries,EPT.Tickets.Self.Queries.IWhiteListQueries,EPT.Tickets.Self.Queries.ISelfTickettypeQueries,EPT.Tickets.Self.Queries.ISelfOrderBillQueries,EPT.Tickets.Self.Queries.ISelfOrderPackageQueries,EPT.Tickets.Self.Queries.ISellTicketQueries)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.GetSelfOrderBackAsync(EPT.SelfAPI.Dto.SelfOrderInfoDto)">
+            <summary>
+            生成自助机购票订单
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.GetPayStateAsync(System.String,System.String)">
+            <summary>
+            获取自助机付款状态  0 未付款；1 已付款
+            </summary>
+            <param name="orderNo">订单编号</param>
+            <param name="machineCode">机器码</param>
+            <returns></returns>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.GetTicketingAsync(System.String,System.String)">
+            <summary>
+            出票
+            </summary>
+            <param name="orderNo">订单编号</param>
+            <param name="machineCode">机器码</param>
+            <returns></returns>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.GetOrderSelfByOrderNo(System.String,System.String)">
+            <summary>
+            订单号与手机号码兑票接口
+            </summary>
+            <param name="TransactionId">订单号</param>
+            <param name="MachineCode">验证吗</param>
+            <returns></returns>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.NoticRecAsync(EPT.SelfAPI.Dto.RecDto)">
+            <summary>
+            支付回调
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.CallBackAsync(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            支付回调
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.GetDeptIdAsync(System.String)">
+            <summary>
+            根据公钥获取机构ID
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.GetAreaNameAsync(System.Int32)">
+            <summary>
+            机构/景点名称
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.GetChannelIdAsync(System.String,System.Int32)">
+            <summary>
+            根据私钥获取渠道ID
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.GetEquipmentIdAsync(System.String)">
+            <summary>
+            根据机器码获取设备ID
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.GetOrderNoAsync(System.String)">
+            <summary>
+            根据机器码获取设备ID
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.OrderController.MakeTicket(System.String)">
+            <summary>
+            支付回调出票
+            </summary>
+            <param name="orderNo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EPT.SelfAPI.Controllers.TicketController">
+            <summary>
+            自助兑票管理
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TicketController.#ctor(MediatR.IMediator,AutoMapper.IMapper,Microsoft.AspNetCore.Http.IHttpContextAccessor,EPT.Tickets.Self.Queries.IScenicAreaQueries,EPT.Tickets.Self.Queries.IInterfaceMaintainQueries,EPT.Tickets.Self.Queries.ISelfEquipmentQueries,EPT.Tickets.Self.Queries.ITicketPrintQueries,EPT.Tickets.Self.Queries.IWhiteListQueries,EPT.Tickets.Self.Queries.ITicketQueries,EPT.Tickets.Self.Queries.ITicketTypeQueries,EPT.Tickets.Self.Queries.ISelfTickettypeQueries,EPT.Tickets.Self.Queries.IInterfaceMaintainQueries,EPT.Tickets.Self.Queries.ISellTicketQueries)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TicketController.GetListAsync">
+            <summary>
+            获取自助机票据明细列表
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TicketController.GetOrderSelfPrintAsync(System.String,System.String)">
+            <summary>
+            二维码兑票接口
+            </summary>
+            <param name="code">二维码</param>
+            <param name="machineCode">机器号</param>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TicketController.GetSelfOrderAsync(System.String,System.String)">
+            <summary>
+            兑票接口
+            </summary>
+            <param name="number">订单号/身份证号/手机号</param>
+            <param name="machineCode">机器号</param>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TicketController.SetTicketPrintAsync(System.String,System.String,System.String)">
+            <summary>
+            添加自助机票据打印记录
+            </summary>
+            <param name="orderNo">订单编号</param>
+            <param name="validateCode">票证识别吗</param>
+            <param name="machineCode">机器码</param>
+            <returns></returns>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TicketController.SetTicketPrintListAsync(EPT.SelfAPI.Dto.TicketPrintDto)">
+            <summary>
+            添加自助机票据打印记录
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TicketController.GetDeptIdAsync(System.String)">
+            <summary>
+            根据公钥获取机构ID
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TicketController.GetChannelIdAsync(System.String,System.Int32)">
+            <summary>
+            根据私钥获取渠道ID
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TicketController.GetEquipmentIdAsync(System.String)">
+            <summary>
+            根据机器码获取设备ID
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Controllers.TickettypeController">
+            <summary>
+            自助设备票类管理
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TickettypeController.#ctor(MediatR.IMediator,AutoMapper.IMapper,Microsoft.AspNetCore.Http.IHttpContextAccessor,EPT.Tickets.Self.Queries.IScenicAreaQueries,EPT.Tickets.Self.Queries.IInterfaceMaintainQueries,EPT.Tickets.Self.Queries.ISelfTickettypeQueries)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TickettypeController.GetListAsync">
+            <summary>
+            获取自助设备票类列表
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TickettypeController.GetDeptIdAsync(System.String)">
+            <summary>
+            根据公钥获取机构ID
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.TickettypeController.GetChannelIdAsync(System.String,System.Int32)">
+            <summary>
+            根据私钥获取渠道ID
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.ApiOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.Version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.ConnectionString">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.Port">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.PayUserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.PayUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.RecUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.OrderQueryUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.MessageApiURL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.MessageUserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.MessageApiKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.Template1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.ApiOptions.Template2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.MessageInputDto">
+            <summary>
+            短信实体(Input)
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.MessageInputDto.molile">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.MessageInputDto.code">
+            <summary>
+            短信验证码
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.MessageOuputDto">
+            <summary>
+            短信实体(Ouput)
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.MessageOuputDto.code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.MessageOuputDto.msg">
+            <summary>
+            消息内容
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.MessageOutCode">
+            <summary>
+            短信实体(Ouput)CODE
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.OrderSelfPrintDto">
+            <summary>
+            自助机订单
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.OrderNo">
+            <summary>
+            订单编号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.ChannelName">
+            <summary>
+            票类名称
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.TicketTypeName">
+            <summary>
+            票类名称
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.SellMoney">
+            <summary>
+            结算价格
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.TicketId">
+            <summary>
+            票据编号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.ValidateCode">
+            <summary>
+            票据识别码
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.OpenDt">
+            <summary>
+            出售日期
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.UseDt">
+            <summary>
+            使用日期
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.ValidityDt">
+            <summary>
+            有效期
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.cnt">
+            <summary>
+            可使用次数
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.PrintState">
+            <summary>
+            打印状态
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.PrintNumber">
+            <summary>
+            打印次数
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.ImageUrl">
+            <summary>
+            票类图片
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.Areas">
+            <summary>
+            景点名称
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.StartTime">
+            <summary>
+            检票开始时间
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderSelfPrintDto.EndTime">
+            <summary>
+            检票结束时间
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.PayMentDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayMentDto.money">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayMentDto.userName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayMentDto.userId">
+            <summary>
+            openID
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayMentDto.userOrderNo">
+            <summary>
+            用户平台订单号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayMentDto.body">
+            <summary>
+            商品描述
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayMentDto.JpushId">
+            <summary>
+            极光id
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayMentDto.notifyUrl">
+            <summary>
+            异步通知地址 必填
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayMentDto.payType">
+            <summary>
+            支付类型
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.PayQueryResultDto">
+            <summary>
+            支付返回结果
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayQueryResultDto.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayQueryResultDto.Result">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayQueryResultDto.Message">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.PayResultDto">
+            <summary>
+            支付返回结果
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayResultDto.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayResultDto.Data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayResultDto.Token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PayResultDto.Message">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.RecDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.RecDto.status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.RecDto.transaction_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.RecDto.out_transaction_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.RecDto.out_trade_no">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.RecDto.total_fee">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.RecDto.userOrderNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.SelfEquipmentDto">
+            <summary>
+            自助设备
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfEquipmentDto.EquID">
+            <summary>
+            设备编号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfEquipmentDto.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfEquipmentDto.ConPassword">
+            <summary>
+            通信密码
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfEquipmentDto.DeviceVer">
+            <summary>
+            机器号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfEquipmentDto.Remarks">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfEquipmentDto.HeadPerson">
+            <summary>
+            负责人
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfEquipmentDto.Phone">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.SelfOrderBackDto">
+            <summary>
+            订单返回结果
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfOrderBackDto.OrderNo">
+            <summary>
+            订单编号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfOrderBackDto.PayMoney">
+            <summary>
+            支付金额
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfOrderBackDto.PayUrl">
+            <summary>
+            支付地址
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfOrderBackDto.StockMessage">
+            <summary>
+            订单提示
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.SelfOrderInfoDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfOrderInfoDto.PayType">
+            <summary>
+            支付方式  1 支付宝；2 微信；
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfOrderInfoDto.MachineCode">
+            <summary>
+            机器码
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfOrderInfoDto.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfOrderInfoDto.TicketInfos">
+            <summary>
+            订单票据信息
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.OrderTicketInfo">
+            <summary>
+            订单票据信息
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderTicketInfo.TicketTypeId">
+            <summary>
+            票类ID
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderTicketInfo.TicketTypeName">
+            <summary>
+            票类名称
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderTicketInfo.Ticketmoney">
+            <summary>
+            票面单价
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.OrderTicketInfo.Amout">
+            <summary>
+            购票数量
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.SelfTicketDto">
+            <summary>
+            自助兑票
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketDto.CUser_Phone">
+            <summary>
+            手机号码
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketDto.OrderNo">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketDto.TicketCode">
+            <summary>
+            票据识别码
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketDto.EquipmentId">
+            <summary>
+            设备ID
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketDto.PeopleId">
+            <summary>
+            身份证号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketDto.VipNo">
+            <summary>
+            会员编号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketDto.OrderDate">
+            <summary>
+            下单时间
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketDto.PrntState">
+            <summary>
+            打印状态  1 已打印；0 未打印
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketDto.PrintDate">
+            <summary>
+            打印日期
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.SelfTicketInfoDto">
+            <summary>
+            票据信息
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketInfoDto.OrderNo">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketInfoDto.TicketNum">
+            <summary>
+            票号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketInfoDto.TicketCode">
+            <summary>
+            识别码
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketInfoDto.ShowName">
+            <summary>
+            票类名称
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketInfoDto.DrawerDate">
+            <summary>
+            下单时间
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketInfoDto.RecordState">
+            <summary>
+            出票状态 0 待出票;1 已出票;2 已检票;3 出票失败;
+            -1 待确认退票;-2 可退票;-3 不可退票;-4 已退票;
+            -5 待确认重新出票;-6 不可重新出票;-7 重新出票成功;-8 已作废
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTicketInfoDto.CheckDate">
+            <summary>
+            检票时间
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.SelfTickettypeDto">
+            <summary>
+            自助设备票类
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.TicketTypeId">
+            <summary>
+            票类编号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.TicketName">
+            <summary>
+            票类名称
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.ShowName">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.SaleMoney">
+            <summary>
+            标准价
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.OnLineMoney">
+            <summary>
+            在线售价
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.UnSellRate">
+            <summary>
+            退费率
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.StockNum">
+            <summary>
+            库存
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.IsShow">
+            <summary>
+            是否显示
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.IsOneTicket">
+            <summary>
+            是否支持单票退订
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.ImageUrl">
+            <summary>
+            票类图片
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.ImageRemark">
+            <summary>
+            内容描述
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.ViewImgUrl">
+            <summary>
+            展示照片
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.SelfTickettypeDto.UseInstructions">
+            <summary>
+            使用说明
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.PrintItem">
+            <summary>
+            打印项
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PrintItem.OrderNo">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PrintItem.validateCode">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.PrintItem.MachineCode">
+            <summary>
+            设备号
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Dto.TicketPrintDto">
+            <summary>
+            打印记录插入参数
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.Dto.TicketPrintDto.TicketPrints">
+            <summary>
+            打印记录列表
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.WebHostServiceExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.WebHostServiceExtensions.RunAsCustomService(Microsoft.AspNetCore.Hosting.IWebHost)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:EPT.SelfAPI.Program.IP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:EPT.SelfAPI.Program.Port">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:EPT.SelfAPI.Program.CreateWebHostBuilder(System.String,System.String[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:EPT.SelfAPI.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Hosting.IApplicationLifetime)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+        </member>
+        <member name="T:EPT.SelfAPI.WebApis.IMessageApi">
+            <summary>
+            短信接口
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.WebApis.IMessageApi.SendAsync(System.String)">
+            <summary>
+            短信发送接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:EPT.SelfAPI.WebApis.IYunPayApi">
+            <summary>
+            支付接口
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.WebApis.IYunPayApi.ReceiveAsync(System.String,EPT.SelfAPI.Dto.PayMentDto)">
+            <summary>
+            扫码支付接口
+            </summary>
+            <param name="url">地址</param>
+            <param name="input">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:EPT.SelfAPI.WebApis.IYunPayApi.ReceiveAsync(System.String)">
+            <summary>
+            扫码支付接口
+            </summary>
+            <param name="url">地址</param>
+            <param name="input">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:EPT.SelfAPI.WebApis.IYunPayApi.PayQueryReceiveAsync(System.String)">
+            <summary>
+            扫码支付接口
+            </summary>
+            <param name="url">地址</param>
+            <param name="input">参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:EPT.SelfAPI.WebApis.LogFilter">
+            <summary>
+            记录日志的过滤器
+            </summary>
+        </member>
+        <member name="P:EPT.SelfAPI.WebApis.LogFilter.Logger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.WebApis.LogFilter.OnBeginRequestAsync(WebApiClient.Contexts.ApiActionContext)">
+            <summary>
+            请求前
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EPT.SelfAPI.WebApis.LogFilter.OnEndRequestAsync(WebApiClient.Contexts.ApiActionContext)">
+            <summary>
+            请求后
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

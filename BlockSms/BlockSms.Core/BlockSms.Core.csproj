@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Company>丝路智旅</Company>
+    <Authors>任琪</Authors>
+    <Description>BlockSms.Core 核心类库</Description>
+    <Copyright>西安丝路智慧旅游科技有限公司</Copyright>
+    <PackageIconUrl>http://www.slzhly.com/favicon.ico</PackageIconUrl>
+    <PackageProjectUrl>http://192.168.100.249:8080/summary/Ticket%2FWebApi.git</PackageProjectUrl>
+    <RepositoryUrl>http://192.168.100.249:8080/summary/Ticket%2FWebApi.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage>zh-Hans</NeutralLanguage>
+    <PackageTags>ept</PackageTags>
+    <Version>1.1.5</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.1.5.0</AssemblyVersion>
+    <FileVersion>1.1.5.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Consul" Version="0.7.2.6" />
+    <PackageReference Include="JetBrains.Annotations" Version="2018.3.0" />
+    <PackageReference Include="DotNetCore.NPOI" Version="1.2.1" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="MediatR" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
+    <PackageReference Include="Nito.AsyncEx.Context" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+    <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
