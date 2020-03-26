@@ -25,14 +25,9 @@
             
             </summary>
         </member>
-        <member name="M:BlockSms.Mobile.Api.MessageController.SendMessageAsync(BlockSms.Mobile.Api.MessageInputDto)">
+        <member name="M:BlockSms.Mobile.Api.MessageController.SendCodeAsync(BlockSms.Mobile.Api.MessageCodeInputDto)">
             <summary>
             发送短信验证码
-            </summary>
-        </member>
-        <member name="M:BlockSms.Mobile.Api.MessageController.SendConsumeMessageAsync(BlockSms.Mobile.Api.MessageInputDto)">
-            <summary>
-            发送短信消费码
             </summary>
         </member>
         <member name="T:BlockSms.Mobile.Api.ApiOptions">
@@ -115,17 +110,17 @@
             
             </summary>
         </member>
-        <member name="T:BlockSms.Mobile.Api.MessageInputDto">
+        <member name="T:BlockSms.Mobile.Api.MessageCodeInputDto">
             <summary>
             短信实体(Input)
             </summary>
         </member>
-        <member name="P:BlockSms.Mobile.Api.MessageInputDto.molile">
+        <member name="P:BlockSms.Mobile.Api.MessageCodeInputDto.molile">
             <summary>
             手机号
             </summary>
         </member>
-        <member name="P:BlockSms.Mobile.Api.MessageInputDto.code">
+        <member name="P:BlockSms.Mobile.Api.MessageCodeInputDto.code">
             <summary>
             短信验证码
             </summary>
@@ -148,6 +143,46 @@
         <member name="T:BlockSms.Mobile.Api.MessageOutCode">
             <summary>
             短信实体(Ouput)CODE
+            </summary>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.UserRegisterDto">
+            <summary>
+            用户注册(Input)
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.UserRegisterDto.molile">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.UserRegisterDto.code">
+            <summary>
+            短信验证码
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.UserRegisterDto.password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:BlockSms.Mobile.Api.UserUpdateDto">
+            <summary>
+            用户注册(Input)
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.UserUpdateDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.UserUpdateDto.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:BlockSms.Mobile.Api.UserUpdateDto.UserConfig">
+            <summary>
+            用户配置
             </summary>
         </member>
         <member name="T:BlockSms.Mobile.Api.Program">
@@ -236,6 +271,41 @@
             </summary>
             <param name="context"></param>
             <returns></returns>
+        </member>
+        <member name="T:EPT.SelfAPI.Controllers.UserController">
+            <summary>
+            自助设备管理
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.UserController.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache,MediatR.IMediator,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{EPT.SelfAPI.Controllers.UserController},Microsoft.AspNetCore.Http.IHttpContextAccessor,BlockSms.Mobile.Core.Queries.IUserQueries,BlockSms.Mobile.Core.Queries.IMessageQueries)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.UserController.TokenAsync(System.String,System.String)">
+            <summary>
+            获取Token
+            </summary>
+            <param name="phone">手机号</param>
+            <param name="password">密码</param>
+            <returns>Token</returns>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.UserController.GetUserAsync">
+            <summary>
+            获取用户信息
+            </summary>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.UserController.RegisterAsync(BlockSms.Mobile.Api.UserRegisterDto)">
+            <summary>
+            用户注册
+            </summary>
+            <param name="input">注册信息</param>
+        </member>
+        <member name="M:EPT.SelfAPI.Controllers.UserController.UpdateAsync(BlockSms.Mobile.Api.UserUpdateDto)">
+            <summary>
+            用户信息修改
+            </summary>
+            <param name="input">注册信息</param>
         </member>
     </members>
 </doc>

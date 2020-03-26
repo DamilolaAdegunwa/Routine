@@ -1,5 +1,5 @@
 ﻿using BlockSms.Core.Queries;
-using EPT.Tickets.Self.Domain;
+using BlockSms.Core.Domain;
 using System.Threading.Tasks;
 
 namespace BlockSms.Mobile.Core.Queries
@@ -10,8 +10,8 @@ namespace BlockSms.Mobile.Core.Queries
     public interface IUserQueries : IBaseQueries<User>
     {
         /// <summary>
-        /// 查询支付信息
+        /// 手机号查用户
         /// </summary>
-        Task<User> GetModelAsync(int deptId, string orderNo);
+        Task<User> GetModelAsync(string mobile);
     }
 }

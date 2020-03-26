@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj": {}
+    "E:\\Routine\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj": {}
   },
   "projects": {
-    "E:\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj": {
+    "E:\\Routine\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj": {
       "version": "1.1.5",
       "restore": {
-        "projectUniqueName": "E:\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj",
+        "projectUniqueName": "E:\\Routine\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj",
         "projectName": "BlockSms.Core",
-        "projectPath": "E:\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj",
+        "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj",
         "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
-        "outputPath": "E:\\BlockSms\\BlockSms.Core\\obj\\",
+        "outputPath": "E:\\Routine\\BlockSms\\BlockSms.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

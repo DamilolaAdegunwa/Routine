@@ -1,0 +1,8 @@
+E:\Routine\BlockSms\BlockSms.DapperExtensions\bin\Release\netstandard2.0\BlockSms.DapperExtensions.deps.json
+E:\Routine\BlockSms\BlockSms.DapperExtensions\bin\Release\netstandard2.0\BlockSms.DapperExtensions.dll
+E:\Routine\BlockSms\BlockSms.DapperExtensions\bin\Release\netstandard2.0\BlockSms.DapperExtensions.pdb
+E:\Routine\BlockSms\BlockSms.DapperExtensions\obj\Release\netstandard2.0\BlockSms.DapperExtensions.csprojAssemblyReference.cache
+E:\Routine\BlockSms\BlockSms.DapperExtensions\obj\Release\netstandard2.0\BlockSms.DapperExtensions.AssemblyInfoInputs.cache
+E:\Routine\BlockSms\BlockSms.DapperExtensions\obj\Release\netstandard2.0\BlockSms.DapperExtensions.AssemblyInfo.cs
+E:\Routine\BlockSms\BlockSms.DapperExtensions\obj\Release\netstandard2.0\BlockSms.DapperExtensions.dll
+E:\Routine\BlockSms\BlockSms.DapperExtensions\obj\Release\netstandard2.0\BlockSms.DapperExtensions.pdb

@@ -11492,11 +11492,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
+      "projectUniqueName": "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
       "projectName": "BlockSms.Mobile.API",
-      "projectPath": "E:\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
+      "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
       "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
-      "outputPath": "E:\\BlockSms\\BlockSms.Mobile.API\\obj\\",
+      "outputPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11517,8 +11517,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj": {
-              "projectPath": "E:\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj"
+            "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj": {
+              "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj"
             }
           }
         }

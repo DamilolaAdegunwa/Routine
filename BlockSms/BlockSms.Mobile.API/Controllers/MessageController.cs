@@ -10,6 +10,9 @@ using System;
 using System.Threading.Tasks;
 using System.Web;
 using WebApiClient;
+using Submail.AppConfig;
+using Submail.Lib;
+using BlockSms.Core.Commands;
 
 namespace BlockSms.Mobile.Api
 {
@@ -40,43 +43,45 @@ namespace BlockSms.Mobile.Api
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
+        #region 发送短信内容
+        /// <summary>
+        /// 发送短信验证码
+        /// </summary>
+        //[HttpPost]
+        //[Route("SendMessage")]
+        //public string SendMessageAsync([FromBody]MessageCodeInputDto input)
+        //{
+        //    _logger.LogInformation($"client[post]:发送短信验证码{input.code}给{input.molile}");
+        //    IAppConfig appConfig = new MMSConfig("41014", "1c5485f03799ecb37c5d1d00b66523f6", SignType.normal);
+        //    MessageSend messageSend = new MessageSend(appConfig);
+        //    messageSend.AddTo(input.molile);
+        //    messageSend.AddContent($"【每日币推】您的验证码是：{input.code}，请在10分钟内输入");
+        //    messageSend.AddTag("123");
+        //    string returnMessage = string.Empty;
+        //    messageSend.Send(out returnMessage);
+        //    return returnMessage;
+        //} 
+        #endregion
+
         /// <summary>
         /// 发送短信验证码
         /// </summary>
         [HttpPost]
-        [Route("SendMessage")]
-        public async Task<MessageOuputDto> SendMessageAsync([FromBody]MessageInputDto input)
+        [Route("SendCode")]
+        public ObjectResult SendCodeAsync([FromBody]MessageCodeInputDto input)
         {
-            _logger.LogInformation($"client[post]:发送短信验证码");
-            var ts = DateTime.Now.Ticks.ToString();
-            var sign = DESEncryptHelper.Get32MD5One($"{_options.MessageUserId}{ts}{_options.MessageApiKey}").ToLower();
-            var content = HttpUtility.UrlEncode(string.Format(_options.Template1, input.code));
-            _logger.LogInformation($"开始短信验证码-->mobile={input.molile},msgcontent={content}");
-            var url = $"{_options.MessageApiURL}/api/sms/send?userid={_options.MessageUserId}&ts={ts}&sign={sign}&mobile={input.molile}&msgcontent={content}";
-            using (var client = HttpApiClient.Create<WebApis.IMessageApi>())
-            {
-                var result = await client.SendAsync(url);
-                return result;
-            }
-        }
+            _logger.LogInformation($"client[post]:发送短信验证码{input.code}给{input.molile}");
+            IAppConfig appConfig = new MMSConfig("41014", "1c5485f03799ecb37c5d1d00b66523f6", SignType.normal);
+            MessageSend messageSend = new MessageSend(appConfig);
+            messageSend.AddTo(input.molile);
+            messageSend.AddContent($"【每日币推】您的验证码是：{input.code}，请在10分钟内输入");
+            messageSend.AddTag("123");
+            string returnMessage = string.Empty;
+            messageSend.Send(out returnMessage);
 
-        /// <summary>
-        /// 发送短信消费码
-        /// </summary>
-        [HttpPost]
-        [Route("SendConsumeMessage")]
-        public async Task<MessageOuputDto> SendConsumeMessageAsync([FromBody]MessageInputDto input)
-        {
-            _logger.LogInformation($"client[post]:发送短信消费码");
-            var ts = DateTime.Now.Ticks.ToString();
-            var sign = DESEncryptHelper.Get32MD5One($"{_options.MessageUserId}{ts}{_options.MessageApiKey}").ToLower();
-            var content = HttpUtility.UrlEncode(string.Format(_options.Template2, input.code));
-            var url = $"{_options.MessageApiURL}/api/sms/send?userid={_options.MessageUserId}&ts={ts}&sign={sign}&mobile={input.molile}&msgcontent={content}";
-            using (var client = HttpApiClient.Create<WebApis.IMessageApi>())
-            {
-                var result = await client.SendAsync(url);
-                return result;
-            }
+            var command = new MessageAddCommand(input.code, input.code,  BlockSms.Core.Domain.EMsgType.验证码);
+            var result =   _mediator.Send(command);
+            return Ok(result);
         }
 
     }

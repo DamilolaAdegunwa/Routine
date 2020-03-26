@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj": {}
+    "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj": {}
   },
   "projects": {
-    "E:\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj": {
+    "E:\\Routine\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj": {
       "version": "1.1.5",
       "restore": {
-        "projectUniqueName": "E:\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj",
+        "projectUniqueName": "E:\\Routine\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj",
         "projectName": "BlockSms.Core",
-        "projectPath": "E:\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj",
+        "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj",
         "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
-        "outputPath": "E:\\BlockSms\\BlockSms.Core\\obj\\",
+        "outputPath": "E:\\Routine\\BlockSms\\BlockSms.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -132,14 +132,14 @@
         }
       }
     },
-    "E:\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj": {
+    "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj": {
       "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "E:\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj",
+        "projectUniqueName": "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj",
         "projectName": "BlockSms.DapperExtensions",
-        "projectPath": "E:\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj",
+        "projectPath": "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj",
         "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
-        "outputPath": "E:\\BlockSms\\BlockSms.DapperExtensions\\obj\\",
+        "outputPath": "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -200,14 +200,14 @@
         }
       }
     },
-    "E:\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj": {
+    "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
+        "projectUniqueName": "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
         "projectName": "BlockSms.Mobile.API",
-        "projectPath": "E:\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
+        "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
         "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
-        "outputPath": "E:\\BlockSms\\BlockSms.Mobile.API\\obj\\",
+        "outputPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -228,8 +228,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj": {
-                "projectPath": "E:\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj"
+              "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj": {
+                "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj"
               }
             }
           }
@@ -292,14 +292,14 @@
         }
       }
     },
-    "E:\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj": {
+    "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj",
+        "projectUniqueName": "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj",
         "projectName": "BlockSms.Mobile.Core",
-        "projectPath": "E:\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj",
+        "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj",
         "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
-        "outputPath": "E:\\BlockSms\\BlockSms.Mobile.Core\\obj\\",
+        "outputPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -320,11 +320,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj": {
-                "projectPath": "E:\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj"
+              "E:\\Routine\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj": {
+                "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Core\\BlockSms.Core.csproj"
               },
-              "E:\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj": {
-                "projectPath": "E:\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj"
+              "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj": {
+                "projectPath": "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj"
               }
             }
           }

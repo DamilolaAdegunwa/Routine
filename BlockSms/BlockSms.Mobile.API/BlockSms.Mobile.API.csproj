@@ -53,6 +53,12 @@
     <Folder Include="AutoMapper\" />
   </ItemGroup>
   
+  <ItemGroup>
+    <Reference Include="Submail.Core">
+      <HintPath>..\BlockSms.Library\Submail.Core\Release\netstandard2.0\Submail.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

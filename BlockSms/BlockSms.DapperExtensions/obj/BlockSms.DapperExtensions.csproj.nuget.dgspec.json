@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj": {}
+    "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj": {}
   },
   "projects": {
-    "E:\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj": {
+    "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj": {
       "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "E:\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj",
+        "projectUniqueName": "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj",
         "projectName": "BlockSms.DapperExtensions",
-        "projectPath": "E:\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj",
+        "projectPath": "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\BlockSms.DapperExtensions.csproj",
         "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
-        "outputPath": "E:\\BlockSms\\BlockSms.DapperExtensions\\obj\\",
+        "outputPath": "E:\\Routine\\BlockSms\\BlockSms.DapperExtensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

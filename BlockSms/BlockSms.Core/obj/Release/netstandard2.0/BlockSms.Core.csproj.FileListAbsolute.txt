@@ -1,0 +1,8 @@
+E:\Routine\BlockSms\BlockSms.Core\bin\Release\netstandard2.0\BlockSms.Core.deps.json
+E:\Routine\BlockSms\BlockSms.Core\bin\Release\netstandard2.0\BlockSms.Core.dll
+E:\Routine\BlockSms\BlockSms.Core\bin\Release\netstandard2.0\BlockSms.Core.pdb
+E:\Routine\BlockSms\BlockSms.Core\obj\Release\netstandard2.0\BlockSms.Core.csprojAssemblyReference.cache
+E:\Routine\BlockSms\BlockSms.Core\obj\Release\netstandard2.0\BlockSms.Core.AssemblyInfoInputs.cache
+E:\Routine\BlockSms\BlockSms.Core\obj\Release\netstandard2.0\BlockSms.Core.AssemblyInfo.cs
+E:\Routine\BlockSms\BlockSms.Core\obj\Release\netstandard2.0\BlockSms.Core.dll
+E:\Routine\BlockSms\BlockSms.Core\obj\Release\netstandard2.0\BlockSms.Core.pdb

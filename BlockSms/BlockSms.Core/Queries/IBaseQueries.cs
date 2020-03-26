@@ -9,11 +9,11 @@ namespace BlockSms.Core.Queries
         /// <summary>
         /// 查询列表
         /// </summary>
-        Task<IEnumerable<T>> GetListAsync(int? deptId);
+        Task<IEnumerable<T>> GetListAsync();
         /// <summary>
         /// 分页查询列表
         /// </summary>
-        Task<IEnumerable<T>> GetPageAsync(int? deptId, int page = 1, int pageSize = 10);
+        Task<IEnumerable<T>> GetPageAsync(int page = 1, int pageSize = 10);
 
     }
 }

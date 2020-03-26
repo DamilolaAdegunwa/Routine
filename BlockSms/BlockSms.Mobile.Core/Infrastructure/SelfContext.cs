@@ -1,5 +1,5 @@
 ﻿using BlockSms.Core.EntityFrameworkCore;
-using EPT.Tickets.Self.Domain;
+using BlockSms.Core.Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;

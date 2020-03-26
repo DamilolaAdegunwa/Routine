@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace EPT.Tickets.Self.Domain
+namespace BlockSms.Core.Domain
 {
     /// <summary>
     /// 支付记录信息表
@@ -13,21 +13,54 @@ namespace EPT.Tickets.Self.Domain
     public class User : Entity<int>, IAggregateRoot
     {
         /// <summary>
-        /// 商业机构ID
+        /// 用户ID
         /// </summary>
-        public int DeptId { get; set; }
+        public int Id { get; set; }
         /// <summary>
-        /// 渠道ID
+        /// 用户名
         /// </summary>
-        public int ChannelId { get; set; }
+        public string Name { get; set; }
         /// <summary>
-        /// 支付平台ID
+        /// 密码
         /// </summary>
-        public int PlatformId { get; set; }
+        public string Password { get; set; }
         /// <summary>
-        /// 订单编号
+        /// 邮箱
         /// </summary>
-        public string OrderNo { get; set; }
+        public string Email { get; set; }
+        /// <summary>
+        /// 手机号
+        /// </summary>
+        public string  Phone { get; set; }
 
+        /// <summary>
+        /// 创建时间
+        /// </summary>
+        public DateTime CreateTime { get; set; }
+        /// <summary>
+        /// 用户类型
+        /// </summary>
+        public UserType UserType { get; set; }
+        /// <summary>
+        /// 用户状态
+        /// </summary>
+        public EUserState UserState { get; set; }
+        /// <summary>
+        /// 用户配置
+        /// </summary>
+        public string UserConfig { get; set; }
+
+    }
+
+    public enum EUserState
+    {
+        Close=0,
+        Open=1
+    }
+    public enum UserType
+    {
+        Visitor=0,
+        Customer=1,
+        Vip=2,
     }
 }

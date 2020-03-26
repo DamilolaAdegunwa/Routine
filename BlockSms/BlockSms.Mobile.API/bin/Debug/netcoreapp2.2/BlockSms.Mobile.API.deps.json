@@ -32,7 +32,8 @@
           "Microsoft.AspNetCore.Mvc": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Versioning": "2.3.0",
           "Microsoft.NETCore.App": "2.2.0",
-          "WebApiClient.JIT": "0.2.8"
+          "WebApiClient.JIT": "0.2.8",
+          "Submail.Core": "1.0.0.0"
         },
         "runtime": {
           "BlockSms.Mobile.API.dll": {}
@@ -3336,6 +3337,17 @@
           "BlockSms.Mobile.Core.dll": {}
         }
       },
+      "Submail.Core/1.0.0.0": {
+        "runtime": {
+          "Submail.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Submail.Core.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.2.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.2.0",
@@ -5266,6 +5278,11 @@
     },
     "BlockSms.Mobile.Core/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Submail.Core/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

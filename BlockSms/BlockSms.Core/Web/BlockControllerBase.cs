@@ -20,19 +20,19 @@ namespace BlockSms.Core.Web
         protected string GetToken()
         {
             var req = _accessor.HttpContext.Request;
-            var key = req.Headers["token"];
-            if (string.IsNullOrEmpty(key))
+            var token = req.Headers["token"];
+            if (string.IsNullOrEmpty(token))
             {
                 _accessor.HttpContext.Response.StatusCode = 401;
                 throw new Exception("没有找到token");
             }
-            string keyvalue = DESEncryptHelper.Decrypt(key, DateTime.Now.ToString("yyyyMMdd"));
-            if (string.IsNullOrEmpty(keyvalue) || keyvalue.Length < 64)
+            string key = DESEncryptHelper.Decrypt(token, DateTime.Now.ToString("yyyyMMdd"));
+            if (string.IsNullOrEmpty(key))
             {
                 _accessor.HttpContext.Response.StatusCode = 401;
                 throw new Exception("无效的token");
             }
-            return keyvalue;
+            return key;
         }
     }
 }

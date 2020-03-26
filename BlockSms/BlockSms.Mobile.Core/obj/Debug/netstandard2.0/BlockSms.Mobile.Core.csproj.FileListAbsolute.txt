@@ -24,3 +24,16 @@ E:\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.A
 E:\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.csproj.CopyComplete
 E:\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.dll
 E:\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.pdb
+E:\Routine\BlockSms\BlockSms.Mobile.Core\bin\Debug\netstandard2.0\BlockSms.Mobile.Core.deps.json
+E:\Routine\BlockSms\BlockSms.Mobile.Core\bin\Debug\netstandard2.0\BlockSms.Mobile.Core.dll
+E:\Routine\BlockSms\BlockSms.Mobile.Core\bin\Debug\netstandard2.0\BlockSms.Mobile.Core.pdb
+E:\Routine\BlockSms\BlockSms.Mobile.Core\bin\Debug\netstandard2.0\BlockSms.Core.dll
+E:\Routine\BlockSms\BlockSms.Mobile.Core\bin\Debug\netstandard2.0\BlockSms.DapperExtensions.dll
+E:\Routine\BlockSms\BlockSms.Mobile.Core\bin\Debug\netstandard2.0\BlockSms.Core.pdb
+E:\Routine\BlockSms\BlockSms.Mobile.Core\bin\Debug\netstandard2.0\BlockSms.DapperExtensions.pdb
+E:\Routine\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.csprojAssemblyReference.cache
+E:\Routine\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.AssemblyInfoInputs.cache
+E:\Routine\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.AssemblyInfo.cs
+E:\Routine\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.csproj.CopyComplete
+E:\Routine\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.dll
+E:\Routine\BlockSms\BlockSms.Mobile.Core\obj\Debug\netstandard2.0\BlockSms.Mobile.Core.pdb

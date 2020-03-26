@@ -3979,7 +3979,7 @@
           "lib/netcoreapp2.1/WebApiClient.JIT.dll": {}
         }
       },
-      "EPT.Core/1.1.5": {
+      "BlockSms.Core/1.1.5": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4002,13 +4002,13 @@
           "log4net": "2.0.8"
         },
         "compile": {
-          "bin/placeholder/EPT.Core.dll": {}
+          "bin/placeholder/BlockSms.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EPT.Core.dll": {}
+          "bin/placeholder/BlockSms.Core.dll": {}
         }
       },
-      "EPT.DapperExtensions/1.0.2": {
+      "BlockSms.DapperExtensions/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4016,26 +4016,26 @@
           "Microsoft.CSharp": "4.5.0"
         },
         "compile": {
-          "bin/placeholder/EPT.DapperExtensions.dll": {}
+          "bin/placeholder/BlockSms.DapperExtensions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EPT.DapperExtensions.dll": {}
+          "bin/placeholder/BlockSms.DapperExtensions.dll": {}
         }
       },
-      "EPT.Tickets.Self/1.0.0": {
+      "BlockSms.Mobile.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "4.9.1",
           "Autofac.Extensions.DependencyInjection": "4.3.1",
-          "EPT.Core": "1.1.5",
-          "EPT.DapperExtensions": "1.0.2"
+          "BlockSms.Core": "1.1.5",
+          "BlockSms.DapperExtensions": "1.0.2"
         },
         "compile": {
-          "bin/placeholder/EPT.Tickets.Self.dll": {}
+          "bin/placeholder/BlockSms.Mobile.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EPT.Tickets.Self.dll": {}
+          "bin/placeholder/BlockSms.Mobile.Core.dll": {}
         }
       }
     },
@@ -7922,7 +7922,7 @@
           "lib/netcoreapp2.1/WebApiClient.JIT.dll": {}
         }
       },
-      "EPT.Core/1.1.5": {
+      "BlockSms.Core/1.1.5": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -7945,13 +7945,13 @@
           "log4net": "2.0.8"
         },
         "compile": {
-          "bin/placeholder/EPT.Core.dll": {}
+          "bin/placeholder/BlockSms.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EPT.Core.dll": {}
+          "bin/placeholder/BlockSms.Core.dll": {}
         }
       },
-      "EPT.DapperExtensions/1.0.2": {
+      "BlockSms.DapperExtensions/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -7959,26 +7959,26 @@
           "Microsoft.CSharp": "4.5.0"
         },
         "compile": {
-          "bin/placeholder/EPT.DapperExtensions.dll": {}
+          "bin/placeholder/BlockSms.DapperExtensions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EPT.DapperExtensions.dll": {}
+          "bin/placeholder/BlockSms.DapperExtensions.dll": {}
         }
       },
-      "EPT.Tickets.Self/1.0.0": {
+      "BlockSms.Mobile.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "4.9.1",
           "Autofac.Extensions.DependencyInjection": "4.3.1",
-          "EPT.Core": "1.1.5",
-          "EPT.DapperExtensions": "1.0.2"
+          "BlockSms.Core": "1.1.5",
+          "BlockSms.DapperExtensions": "1.0.2"
         },
         "compile": {
-          "bin/placeholder/EPT.Tickets.Self.dll": {}
+          "bin/placeholder/BlockSms.Mobile.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EPT.Tickets.Self.dll": {}
+          "bin/placeholder/BlockSms.Mobile.Core.dll": {}
         }
       }
     }
@@ -15764,26 +15764,26 @@
         "webapiclient.jit.nuspec"
       ]
     },
-    "EPT.Core/1.1.5": {
+    "BlockSms.Core/1.1.5": {
       "type": "project",
-      "path": "../../libs/EPT.Core/EPT.Core.csproj",
-      "msbuildProject": "../../libs/EPT.Core/EPT.Core.csproj"
+      "path": "../BlockSms.Core/BlockSms.Core.csproj",
+      "msbuildProject": "../BlockSms.Core/BlockSms.Core.csproj"
     },
-    "EPT.DapperExtensions/1.0.2": {
+    "BlockSms.DapperExtensions/1.0.2": {
       "type": "project",
-      "path": "../../libs/EPT.DapperExtensions/EPT.DapperExtensions.csproj",
-      "msbuildProject": "../../libs/EPT.DapperExtensions/EPT.DapperExtensions.csproj"
+      "path": "../BlockSms.DapperExtensions/BlockSms.DapperExtensions.csproj",
+      "msbuildProject": "../BlockSms.DapperExtensions/BlockSms.DapperExtensions.csproj"
     },
-    "EPT.Tickets.Self/1.0.0": {
+    "BlockSms.Mobile.Core/1.0.0": {
       "type": "project",
-      "path": "../../core/EPT.Tickets.Self/EPT.Tickets.Self.csproj",
-      "msbuildProject": "../../core/EPT.Tickets.Self/EPT.Tickets.Self.csproj"
+      "path": "../BlockSms.Mobile.Core/BlockSms.Mobile.Core.csproj",
+      "msbuildProject": "../BlockSms.Mobile.Core/BlockSms.Mobile.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 6.0.0",
-      "EPT.Tickets.Self >= 1.0.0",
+      "BlockSms.Mobile.Core >= 1.0.0",
       "Exceptionless.Log4net >= 4.3.2012",
       "Microsoft.AspNetCore >= 2.2.0",
       "Microsoft.AspNetCore.Hosting.WindowsServices >= 2.2.0",
@@ -15800,11 +15800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Workspace\\WebApi\\src\\webapis\\EPT.SelfAPI\\EPT.SelfAPI.csproj",
-      "projectName": "EPT.SelfAPI",
-      "projectPath": "E:\\Workspace\\WebApi\\src\\webapis\\EPT.SelfAPI\\EPT.SelfAPI.csproj",
+      "projectUniqueName": "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
+      "projectName": "BlockSms.Mobile.API",
+      "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\BlockSms.Mobile.API.csproj",
       "packagesPath": "C:\\Users\\kxzy1\\.nuget\\packages\\",
-      "outputPath": "E:\\Workspace\\WebApi\\src\\webapis\\EPT.SelfAPI\\obj\\publish\\linux-x64\\",
+      "outputPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.API\\obj\\publish\\linux-x64\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15825,8 +15825,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\Workspace\\WebApi\\src\\core\\EPT.Tickets.Self\\EPT.Tickets.Self.csproj": {
-              "projectPath": "E:\\Workspace\\WebApi\\src\\core\\EPT.Tickets.Self\\EPT.Tickets.Self.csproj"
+            "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj": {
+              "projectPath": "E:\\Routine\\BlockSms\\BlockSms.Mobile.Core\\BlockSms.Mobile.Core.csproj"
             }
           }
         }

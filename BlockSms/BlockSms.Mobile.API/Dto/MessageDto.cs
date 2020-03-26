@@ -8,7 +8,7 @@ namespace BlockSms.Mobile.Api
     /// <summary>
     /// 短信实体(Input)
     /// </summary>
-    public class MessageInputDto
+    public class MessageCodeInputDto
     {
         /// <summary>
         /// 手机号
